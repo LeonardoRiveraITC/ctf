@@ -1,3 +1,3 @@
-<script>
+function xss(){
   alert(document.cookie)
-</script>
+}
