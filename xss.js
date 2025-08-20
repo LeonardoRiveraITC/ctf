@@ -1,3 +1,3 @@
-function xss(){
+export function xss(){
   alert(document.cookie)
 }
